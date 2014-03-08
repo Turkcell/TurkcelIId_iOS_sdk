@@ -33,6 +33,7 @@ TurkcellIDMainView *loginView = [[TurkcellIDMainView alloc] initWithAppId:@"APP_
     
 [loginView show];
 ```
+###Change Password
 
 ```objective-c
 /*!
@@ -45,7 +46,6 @@ TurkcellIDMainView *loginView = [[TurkcellIDMainView alloc] initWithAppId:@"APP_
  * \fullScreen : Turkcell ID screens can open fullscreen or partially using this parameter.
  * \useTestServer : Uses test server url for server requests.
  */
-//Change Password
 TurkcellIDMainView *loginView = [[TurkcellIDMainView alloc] initWithAppId:@"APP_ID"
                                                                        sender:SENDER_TYPE_CHANGE_PASSWORD
                                                             operationDelegate:self
@@ -56,14 +56,14 @@ TurkcellIDMainView *loginView = [[TurkcellIDMainView alloc] initWithAppId:@"APP_
     
 [loginView show];
 ```
+###Log out
 
 ```objective-c
-//Logout
 [TurkcellIDMainView logout];
 ```
+###TurkcellIDCallbackDelegate methods
 
 ```objective-c
-//TurkcellIDCallbackDelegate methods
 /*!
  * Protocol is defined for the use of TurkcellIDMainView to implement the callbacks which triggers according to the server respoonse
  */
