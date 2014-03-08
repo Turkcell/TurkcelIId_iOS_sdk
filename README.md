@@ -8,9 +8,11 @@ Application ID could be get from sabri.elci@turkcell.com.tr
 ## Sample Code
 
 ```objective-c
-
+//import this header tou your project
 #import <TurkcellID/TurkcellID.h>
 
+
+```objective-c
 /*!
  * This functions gives you the ability login to the system and gets a token as a return.If it is the first login or remember me is not selected, it asks for a number and password.
  * \appID : This value is given by the system administrator for relevant application. It is given as a string parameter.
@@ -42,10 +44,14 @@ TurkcellIDMainView *loginView = [[TurkcellIDMainView alloc] initWithAppId:@"APP_
                                                                 useTestServer:flagUseTest];
     
 [loginView show];
+```
 
+```objective-c
 //Logout
 [TurkcellIDMainView logout];
+```
 
+```objective-c
 //TurkcellIDCallbackDelegate methods
 /*!
  * Protocol is defined for the use of TurkcellIDMainView to implement the callbacks which triggers according to the server respoonse
