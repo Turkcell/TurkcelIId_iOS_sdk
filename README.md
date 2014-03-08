@@ -3,7 +3,7 @@ TurkcellId_iOS_sdk
 
 Turkcell ID SDK provides an authentication mechanism for iOS applications by using Turkcell user info.
 
-Application ID could be get from sabri.elci@turkcell.com.tr
+You may get the Application ID from sabri.elci@turkcell.com.tr
 
 ## Sample Code
 
