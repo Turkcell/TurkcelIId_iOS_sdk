@@ -46,7 +46,8 @@
     messageParentViewController:(UIViewController *)messageParentViewControllerParameter
     messageDelegate:(id<MFMessageComposeViewControllerDelegate>)messageDelegateParameter
          fullScreen:(BOOL)fullScreenParameter
-      useTestServer:(BOOL)useTestServerParameter;
+      useTestServer:(BOOL)useTestServerParameter
+       smsSupported:(BOOL)smsSupportedParameter;
 
 - (void)show;
 + (void)logout;
