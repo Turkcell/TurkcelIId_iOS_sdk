@@ -22,6 +22,7 @@ You may get the Application ID from sabri.elci@turkcell.com.tr
  * \messageDelegate : The class that implements MFMessageComposeViewControllerDelegate. This is called when the sms send screen opens.
  * \fullScreen : Turkcell ID screens can open fullscreen or partially using this parameter.
  * \useTestServer : Uses test server url for server requests.
+ * \smsSupported : Send yes if your device supports sms 
  */
 TurkcellIDMainView *loginView = [[TurkcellIDMainView alloc] initWithAppId:@"APP_ID"
                                                                        sender:SENDER_TYPE_LOGIN
@@ -29,7 +30,8 @@ TurkcellIDMainView *loginView = [[TurkcellIDMainView alloc] initWithAppId:@"APP_
                                                   messageParentViewController:self
                                                               messageDelegate:self
                                                                    fullScreen:YES
-                                                                useTestServer:NO];
+                                                                useTestServer:NO
+                                                                 smsSupported:YES];
     
 [loginView show];
 ```
@@ -45,6 +47,7 @@ TurkcellIDMainView *loginView = [[TurkcellIDMainView alloc] initWithAppId:@"APP_
  * \messageDelegate : The class that implements MFMessageComposeViewControllerDelegate. This is called when the sms send screen opens.
  * \fullScreen : Turkcell ID screens can open fullscreen or partially using this parameter.
  * \useTestServer : Uses test server url for server requests.
+ * \smsSupported : Send yes if your device supports sms
  */
 TurkcellIDMainView *loginView = [[TurkcellIDMainView alloc] initWithAppId:@"APP_ID"
                                                                        sender:SENDER_TYPE_CHANGE_PASSWORD
@@ -52,7 +55,8 @@ TurkcellIDMainView *loginView = [[TurkcellIDMainView alloc] initWithAppId:@"APP_
                                                   messageParentViewController:self
                                                               messageDelegate:self
                                                                    fullScreen:flagFullScreen
-                                                                useTestServer:flagUseTest];
+                                                                useTestServer:flagUseTest
+                                                                 smsSupported:YES];
     
 [loginView show];
 ```
