@@ -1,7 +1,7 @@
 TurkcellId_iOS_sdk
 ===================
 
-Turkcell ID SDK provides an authentication mechanism for iOS applications by using Turkcell user info.
+Turkcell ID SDK provides an authentication mechanism for iOS applications by using Turkcell user info. Requires SystemConfiguration.framework.
 
 You may get the Application ID from sabri.elci@turkcell.com.tr
 
