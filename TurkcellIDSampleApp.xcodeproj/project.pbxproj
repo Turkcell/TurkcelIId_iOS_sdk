@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0283A34417685F8700FAF20A /* TurkcellID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0283A34317685F8700FAF20A /* TurkcellID.framework */; };
 		028B0EB4172FC1E500EE3450 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028B0EB3172FC1E500EE3450 /* MessageUI.framework */; };
 		028B0EB6172FC1E900EE3450 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028B0EB5172FC1E900EE3450 /* SystemConfiguration.framework */; };
 		02D7C6B0172FB621008F02A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D7C6AF172FB621008F02A0 /* UIKit.framework */; };
@@ -19,9 +18,10 @@
 		02D7C6C2172FB621008F02A0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D7C6C1172FB621008F02A0 /* Default.png */; };
 		02D7C6C4172FB621008F02A0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D7C6C3172FB621008F02A0 /* Default@2x.png */; };
 		02D7C6C6172FB621008F02A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D7C6C5172FB621008F02A0 /* Default-568h@2x.png */; };
-		02E5D349173EC6CA00B46D3D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E5D347173EC6CA00B46D3D /* MainViewController.m */; };
 		02E5D34A173EC6CA00B46D3D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E5D348173EC6CA00B46D3D /* MainViewController.xib */; };
 		02ECFF4B1742702C004784B3 /* turkcell_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02ECFF4A1742702C004784B3 /* turkcell_icon.png */; };
+		88D8C2A11A5D5816005D925E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E5D347173EC6CA00B46D3D /* MainViewController.m */; };
+		88D8C2A21A5D5839005D925E /* TurkcellID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0283A34317685F8700FAF20A /* TurkcellID.framework */; };
 		98BF75F9187C91B0002646A7 /* TurkcellIDBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 98BF75F8187C91B0002646A7 /* TurkcellIDBundle.bundle */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +59,7 @@
 				02D7C6B0172FB621008F02A0 /* UIKit.framework in Frameworks */,
 				02D7C6B2172FB621008F02A0 /* Foundation.framework in Frameworks */,
 				02D7C6B4172FB621008F02A0 /* CoreGraphics.framework in Frameworks */,
-				0283A34417685F8700FAF20A /* TurkcellID.framework in Frameworks */,
+				88D8C2A21A5D5839005D925E /* TurkcellID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,9 +193,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D8C2A11A5D5816005D925E /* MainViewController.m in Sources */,
 				02D7C6BC172FB621008F02A0 /* main.m in Sources */,
 				02D7C6C0172FB621008F02A0 /* AppDelegate.m in Sources */,
-				02E5D349173EC6CA00B46D3D /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +283,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Baris Guzelordu (Z3268TBF9H)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TurkcellIDSampleApp/TurkcellIDSampleApp-Prefix.pch";
@@ -303,7 +304,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Baris Guzelordu (Z3268TBF9H)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TurkcellIDSampleApp/TurkcellIDSampleApp-Prefix.pch";
