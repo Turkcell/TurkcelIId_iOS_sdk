@@ -42,6 +42,8 @@ messageParentViewController:(UIViewController *)messageParentViewControllerParam
        smsSupported:(BOOL)smsSupported
       disableRadius:(BOOL) disableRadius;
 
+@property(nonatomic, readonly) BOOL remembermeLogin;
+
 
 - (void)show;
 + (void)logout;
