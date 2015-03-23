@@ -20,7 +20,7 @@
 		02D7C6C6172FB621008F02A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D7C6C5172FB621008F02A0 /* Default-568h@2x.png */; };
 		02E5D34A173EC6CA00B46D3D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E5D348173EC6CA00B46D3D /* MainViewController.xib */; };
 		02ECFF4B1742702C004784B3 /* turkcell_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02ECFF4A1742702C004784B3 /* turkcell_icon.png */; };
-		886BA76F1AAD943000805DBE /* TurkcellID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886BA76E1AAD943000805DBE /* TurkcellID.framework */; };
+		885FEE681AC0186700E0C03E /* TurkcellID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885FEE671AC0186700E0C03E /* TurkcellID.framework */; };
 		88D8C2A11A5D5816005D925E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E5D347173EC6CA00B46D3D /* MainViewController.m */; };
 		98BF75F9187C91B0002646A7 /* TurkcellIDBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 98BF75F8187C91B0002646A7 /* TurkcellIDBundle.bundle */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,7 @@
 		02E5D347173EC6CA00B46D3D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		02E5D348173EC6CA00B46D3D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		02ECFF4A1742702C004784B3 /* turkcell_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turkcell_icon.png; sourceTree = "<group>"; };
-		886BA76E1AAD943000805DBE /* TurkcellID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TurkcellID.framework; sourceTree = "<group>"; };
+		885FEE671AC0186700E0C03E /* TurkcellID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TurkcellID.framework; sourceTree = "<group>"; };
 		98BF75F8187C91B0002646A7 /* TurkcellIDBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TurkcellIDBundle.bundle; path = TurkcellID.framework/Resources/TurkcellIDBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				028B0EB6172FC1E900EE3450 /* SystemConfiguration.framework in Frameworks */,
-				886BA76F1AAD943000805DBE /* TurkcellID.framework in Frameworks */,
+				885FEE681AC0186700E0C03E /* TurkcellID.framework in Frameworks */,
 				028B0EB4172FC1E500EE3450 /* MessageUI.framework in Frameworks */,
 				02D7C6B0172FB621008F02A0 /* UIKit.framework in Frameworks */,
 				02D7C6B2172FB621008F02A0 /* Foundation.framework in Frameworks */,
@@ -87,7 +87,7 @@
 		02D7C6AE172FB621008F02A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				886BA76E1AAD943000805DBE /* TurkcellID.framework */,
+				885FEE671AC0186700E0C03E /* TurkcellID.framework */,
 				98BF75F8187C91B0002646A7 /* TurkcellIDBundle.bundle */,
 				028B0EB5172FC1E900EE3450 /* SystemConfiguration.framework */,
 				028B0EB3172FC1E500EE3450 /* MessageUI.framework */,
