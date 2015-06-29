@@ -51,5 +51,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+		<key>UIAppFonts</key>
+	<array>
+		<string>Turkcell Satura Demi Italic.ttf</string>
+		<string>Turkcell Satura Demi.ttf</string>
+		<string>Turkcell Satura Italic.ttf</string>
+		<string>Turkcell Satura Medium Italic.ttf</string>
+		<string>Turkcell Satura Medium.ttf</string>
+		<string>Turkcell Satura Regular.ttf</string>
+		<string>TurkcellSaturaBold.ttf</string>
+		<string>Turkcell Satura Bold Italic.ttf</string>
+	</array>
 </dict>
 </plist>

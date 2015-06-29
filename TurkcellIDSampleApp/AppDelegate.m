@@ -24,7 +24,8 @@
 //
 
 #import "AppDelegate.h"
-#import "MainViewController.h"
+#import "TestVC.h"
+
 
 @implementation AppDelegate
 
@@ -32,12 +33,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    MainViewController *mainVC = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    TestVC *mainVC = [[TestVC alloc] init];
     
     [self.window setRootViewController:mainVC];
-
     
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
