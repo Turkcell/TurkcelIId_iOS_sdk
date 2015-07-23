@@ -107,5 +107,5 @@ typedef NS_ENUM(NSUInteger, TLHTTPRequestType) {
 @property (nonatomic, strong) id requestParams;
 @property (nonatomic, assign) NSURLRequestCachePolicy cachePolicy;
 @property (nonatomic, strong) TLAFHTTPRequestSerializer* requestSerializer;
-
+@property (nonatomic, assign) BOOL dontSendSessionId;
 @end
