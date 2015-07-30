@@ -10,14 +10,14 @@
 
 typedef NS_ENUM(NSUInteger, TLLoginType)
 {
+    TcellLoginTypeNonLogin,
     TcellLoginTypeServiceLogin,
     TcellLoginTypeRememberMe,
     TcellLoginTypeLightLoginRememberMe,
     TcellLoginTypeLightLogin,
-    TcellLoginTypeTouchID,
-    TcellLoginTypeNonLogin
+    TcellLoginTypeTouchID    
 };
 
-#define kTLLoginTypeArray @"TcellLoginTypeServiceLogin", @"TcellLoginTypeRememberMe", @"TcellLoginTypeLightLoginRememberMe", @"TcellLoginTypeLightLogin", @"TcellLoginTypeTouchID", @"TcellLoginTypeNonLogin", nil
+#define kTLLoginTypeArray @"TcellLoginTypeNonLogin", @"TcellLoginTypeServiceLogin", @"TcellLoginTypeRememberMe", @"TcellLoginTypeLightLoginRememberMe", @"TcellLoginTypeLightLogin", @"TcellLoginTypeTouchID", nil
 
 
