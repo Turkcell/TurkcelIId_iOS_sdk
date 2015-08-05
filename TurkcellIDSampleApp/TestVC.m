@@ -29,7 +29,7 @@
     TLTheme * theme = [[TLTheme alloc] init];
     theme.customButtonTitle = @"Test Button";
     
-    _login = [[TLManager alloc] initWithAppID:@"201" useTestServer:YES theme:theme];
+    _login = [[TLManager alloc] initWithAppID:@"201" useTestServer:YES theme:theme customAccessGroup:nil];
     _login.delegate = self;
     
 }

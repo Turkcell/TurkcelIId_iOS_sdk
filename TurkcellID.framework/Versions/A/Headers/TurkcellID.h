@@ -40,3 +40,4 @@
 #import "TurkcellIDConstants.h"
 #import "TLSingleton.h"
 #import "TLUIHelper.h"
+#import "TLTextHelper.h"

@@ -1,6 +1,6 @@
 
 #import <Foundation/Foundation.h>
-
+#import "TLTextHelper.h"
 
 #define BasePRODURL             @"https://tsdk.turkcell.com.tr/SERVICE/AuthAPI/"
 #define BasePRODURLHTTP         @"http://tsdk.turkcell.com.tr/SERVICE/AuthAPI/"
@@ -38,8 +38,12 @@
 #define RESPONSE_CODE_SUCCESS            @"0"
 #define RESPONSE_CODE_PASSWORD_EXPIRE    @"1"
 #define RESPONSE_CODE_CAPTCHA_REQUIRED   @"4"
+#define RESPONSE_CODE_INVALID_CAPTCHA    @"5"
 
-#define ACCESS_GROUP_TEST            @"F49E5GW326.com.shiftmobi.suite"
-#define ACCESS_GROUP_PROD            @"7YZS5NTGYH.com.turkcell.suite"
+#define ACCESS_GROUP_TEST            @"F49E5GW326.com.smobi.login.suite"
+#define ACCESS_GROUP_PROD            @"7YZS5NTGYH.com.turkcell.login.suite"
 
+#define SYSTEM_ERROR_MSG			@"Şu anda hizmet veremiyoruz. Lütfen daha sonra tekrar deneyiniz."
+
+#define TEXT(v)            [[TLTextHelper instance] getTextForKey:v]
 

@@ -15,6 +15,8 @@
 -(void) addLogo;
 -(void) hide;
 -(void) addBackButton;
+-(void) clearTextFields;
+- (void)clearTextFieldsOfView:(UIView *)view;
 
 @property (weak, nonatomic) IBOutlet UILabel *headerLabel;
 

@@ -58,6 +58,8 @@ extern NSString * const ResponseKeyEncodedCaptcha;
 extern NSString * const ResponseKeyNonTurkcellLogin;
 extern NSString * const ResponseKeyRememberMeCheckedByDefault;
 extern NSString * const ResponseKeyShowCellularRememberMeOffer;
+extern NSString * const ResponseKeyProperties;
+
 /**
  Key for NSError object in NSNotication's userInfo dictionary.
  */

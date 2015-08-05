@@ -26,7 +26,7 @@
 @interface TLManager : NSObject<TLLoginVCDelegate,RememberMeOfferDelegate>
 
 @property(nonatomic,weak) id<TLLoginDelegate> delegate;
--(instancetype)initWithAppID:(NSString *)appID  useTestServer:(BOOL)useTestServer theme:(TLTheme *)theme;
+-(instancetype)initWithAppID:(NSString *)appID  useTestServer:(BOOL)useTestServer theme:(TLTheme *)theme customAccessGroup:(NSString *) accessGroup;
 -(void)startLoginProcess:(UIViewController *) mainVC skipLightLogin:(BOOL)skipLightLogin showLoginPage:(BOOL)showLoginPage showLoader:(BOOL)pShowLoader dismissSession:(BOOL) dismissSession;
 -(void)logout;
 -(void)reset:(NSString *) chain;

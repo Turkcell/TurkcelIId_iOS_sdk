@@ -27,5 +27,7 @@
 @property(nonatomic,weak) id<TLPasswordChangeDelegate> delegate;
 @property(nonatomic,assign) BOOL backToRootVC;
 
-@property (nonatomic,strong) NSString * customField;
+@property (nonatomic,strong) NSString * defaultMsisdn;
+@property (nonatomic,strong) NSString * defaultEncryptedMsisdn;
+
 @end
