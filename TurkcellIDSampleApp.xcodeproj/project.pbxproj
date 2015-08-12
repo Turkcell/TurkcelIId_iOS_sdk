@@ -31,7 +31,6 @@
 		886C01DC1B4144B900A9BF74 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 886C01DB1B4144B900A9BF74 /* libc++.dylib */; };
 		886CD3111B7B9662001F000C /* TurkcellID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886CD3101B7B9662001F000C /* TurkcellID.framework */; };
 		886CD3131B7B966D001F000C /* TurkcellIDBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 886CD3121B7B966D001F000C /* TurkcellIDBundle.bundle */; };
-		886CD3151B7B98A0001F000C /* HowTo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 886CD3141B7B98A0001F000C /* HowTo.pdf */; };
 		88F475F71B612E1500207F7F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F475F61B612E1500207F7F /* CoreText.framework */; };
 		88F58B6F1B724595006FF31D /* test.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 88F58B6E1B724595006FF31D /* test.entitlements */; };
 /* End PBXBuildFile section */
@@ -66,7 +65,6 @@
 		886C01DB1B4144B900A9BF74 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		886CD3101B7B9662001F000C /* TurkcellID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TurkcellID.framework; sourceTree = "<group>"; };
 		886CD3121B7B966D001F000C /* TurkcellIDBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TurkcellIDBundle.bundle; sourceTree = "<group>"; };
-		886CD3141B7B98A0001F000C /* HowTo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HowTo.pdf; sourceTree = "<group>"; };
 		88F475F61B612E1500207F7F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		88F58B6E1B724595006FF31D /* test.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,7 +98,6 @@
 		02D7C6A3172FB621008F02A0 = {
 			isa = PBXGroup;
 			children = (
-				886CD3141B7B98A0001F000C /* HowTo.pdf */,
 				02ECFF4A1742702C004784B3 /* turkcell_icon.png */,
 				02D7C6B5172FB621008F02A0 /* TurkcellIDSampleApp */,
 				02D7C6AE172FB621008F02A0 /* Frameworks */,
@@ -231,7 +228,6 @@
 				02D7C6C4172FB621008F02A0 /* Default@2x.png in Resources */,
 				02D7C6C6172FB621008F02A0 /* Default-568h@2x.png in Resources */,
 				02ECFF4B1742702C004784B3 /* turkcell_icon.png in Resources */,
-				886CD3151B7B98A0001F000C /* HowTo.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
