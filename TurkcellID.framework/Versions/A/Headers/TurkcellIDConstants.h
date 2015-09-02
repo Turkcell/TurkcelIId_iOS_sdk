@@ -5,6 +5,7 @@
 #define BasePRODURL             @"https://tsdk.turkcell.com.tr/SERVICE/AuthAPI/"
 #define BasePRODURLHTTP         @"http://tsdk.turkcell.com.tr/SERVICE/AuthAPI/"
 
+
 #define BaseTestURL         @"https://sdk-tst.turkcell.com.tr/SERVICE/AuthAPI/"
 #define BaseTestURLHTTP     @"http://sdk-tst.turkcell.com.tr/SERVICE/AuthAPI/"
 
