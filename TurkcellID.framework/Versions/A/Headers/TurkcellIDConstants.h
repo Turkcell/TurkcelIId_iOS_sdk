@@ -23,7 +23,7 @@
 #define IS_IOS_6                                    [[[UIDevice currentDevice] systemVersion] hasPrefix:@"6"]
 #define IPHONE4                                     [[UIScreen mainScreen] bounds].size.height <= 480.0
 
-#define DEFAULT_CORNER_RADIUS 5.0f
+#define DEFAULT_CORNER_RADIUS         5.0f
 #define STUB_SERVICE                  0
 #define THEME                                       [[TLSingleton sharedObject] theme]
 #define EXACT_LEN_MSISDN_TEXTFIELD      10
