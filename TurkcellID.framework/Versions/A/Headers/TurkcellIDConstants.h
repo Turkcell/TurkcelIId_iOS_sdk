@@ -41,7 +41,6 @@
 #define RESPONSE_CODE_CAPTCHA_REQUIRED   @"4"
 #define RESPONSE_CODE_INVALID_CAPTCHA    @"5"
 
-#define ACCESS_GROUP_TEST            @"F49E5GW326.com.smobi.login.suite"
 #define ACCESS_GROUP_PROD            @"7YZS5NTGYH.com.turkcell.login.suite"
 
 #define SYSTEM_ERROR_MSG			@"Şu anda hizmet veremiyoruz. Lütfen daha sonra tekrar deneyiniz."
