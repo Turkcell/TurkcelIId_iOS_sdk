@@ -32,9 +32,9 @@
 		88779E1A1BCE8F00008FB85C /* TurkcellIDBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88779E191BCE8F00008FB85C /* TurkcellIDBundle.bundle */; };
 		88D17F361C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Appstore-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88D17F341C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Appstore-Info.plist */; };
 		88D17F371C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Enterprise-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88D17F351C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Enterprise-Info.plist */; };
-		88E54D721C203AA90021DE13 /* TurkcellID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E54D711C203AA90021DE13 /* TurkcellID.framework */; };
 		88F475F71B612E1500207F7F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F475F61B612E1500207F7F /* CoreText.framework */; };
 		88F58B6F1B724595006FF31D /* test.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 88F58B6E1B724595006FF31D /* test.entitlements */; };
+		88FDE2CE1C50DCB800D90479 /* TurkcellID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FDE2CD1C50DCB800D90479 /* TurkcellID.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,9 +68,9 @@
 		88779E191BCE8F00008FB85C /* TurkcellIDBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TurkcellIDBundle.bundle; sourceTree = "<group>"; };
 		88D17F341C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Appstore-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TurkcellIDSampleApp-Appstore-Info.plist"; sourceTree = "<group>"; };
 		88D17F351C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Enterprise-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TurkcellIDSampleApp-Enterprise-Info.plist"; sourceTree = "<group>"; };
-		88E54D711C203AA90021DE13 /* TurkcellID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TurkcellID.framework; sourceTree = "<group>"; };
 		88F475F61B612E1500207F7F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		88F58B6E1B724595006FF31D /* test.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.entitlements; sourceTree = "<group>"; };
+		88FDE2CD1C50DCB800D90479 /* TurkcellID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TurkcellID.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 				886C01CE1B41442F00A9BF74 /* Accelerate.framework in Frameworks */,
 				028B0EB6172FC1E900EE3450 /* SystemConfiguration.framework in Frameworks */,
 				028B0EB4172FC1E500EE3450 /* MessageUI.framework in Frameworks */,
-				88E54D721C203AA90021DE13 /* TurkcellID.framework in Frameworks */,
+				88FDE2CE1C50DCB800D90479 /* TurkcellID.framework in Frameworks */,
 				02D7C6B0172FB621008F02A0 /* UIKit.framework in Frameworks */,
 				02D7C6B2172FB621008F02A0 /* Foundation.framework in Frameworks */,
 				02D7C6B4172FB621008F02A0 /* CoreGraphics.framework in Frameworks */,
@@ -120,7 +120,7 @@
 		02D7C6AE172FB621008F02A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				88E54D711C203AA90021DE13 /* TurkcellID.framework */,
+				88FDE2CD1C50DCB800D90479 /* TurkcellID.framework */,
 				88F475F61B612E1500207F7F /* CoreText.framework */,
 				886C01DB1B4144B900A9BF74 /* libc++.dylib */,
 				886C01D91B41449F00A9BF74 /* libz.dylib */,
