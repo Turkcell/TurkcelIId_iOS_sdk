@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		028B0EB4172FC1E500EE3450 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028B0EB3172FC1E500EE3450 /* MessageUI.framework */; };
 		028B0EB6172FC1E900EE3450 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028B0EB5172FC1E900EE3450 /* SystemConfiguration.framework */; };
-		02D7C6B0172FB621008F02A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D7C6AF172FB621008F02A0 /* UIKit.framework */; };
 		02D7C6B2172FB621008F02A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D7C6B1172FB621008F02A0 /* Foundation.framework */; };
 		02D7C6B4172FB621008F02A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D7C6B3172FB621008F02A0 /* CoreGraphics.framework */; };
 		02D7C6BA172FB621008F02A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02D7C6B8172FB621008F02A0 /* InfoPlist.strings */; };
@@ -29,12 +28,14 @@
 		886C01D81B41446700A9BF74 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886C01D71B41446700A9BF74 /* CoreTelephony.framework */; };
 		886C01DA1B41449F00A9BF74 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 886C01D91B41449F00A9BF74 /* libz.dylib */; };
 		886C01DC1B4144B900A9BF74 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 886C01DB1B4144B900A9BF74 /* libc++.dylib */; };
-		88CD33861C9FF6AD002B8ABD /* TurkcellID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CD33851C9FF6AD002B8ABD /* TurkcellID.framework */; };
-		88CD33881C9FF6B9002B8ABD /* TurkcellIDBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88CD33871C9FF6B9002B8ABD /* TurkcellIDBundle.bundle */; };
 		88D17F361C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Appstore-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88D17F341C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Appstore-Info.plist */; };
 		88D17F371C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Enterprise-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88D17F351C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Enterprise-Info.plist */; };
 		88F475F71B612E1500207F7F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F475F61B612E1500207F7F /* CoreText.framework */; };
 		88F58B6F1B724595006FF31D /* test.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 88F58B6E1B724595006FF31D /* test.entitlements */; };
+		9CD8074C1CCE188C0048B1FA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD8074B1CCE188C0048B1FA /* CFNetwork.framework */; };
+		9CD8074D1CCE19000048B1FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D7C6AF172FB621008F02A0 /* UIKit.framework */; };
+		9CD8074F1CCE1A0B0048B1FA /* TurkcellID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CD8074E1CCE1A0B0048B1FA /* TurkcellID.framework */; };
+		9CD807531CCE2A780048B1FA /* TurkcellIDBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CD807521CCE2A780048B1FA /* TurkcellIDBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,12 +66,13 @@
 		886C01D71B41446700A9BF74 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		886C01D91B41449F00A9BF74 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		886C01DB1B4144B900A9BF74 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
-		88CD33851C9FF6AD002B8ABD /* TurkcellID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TurkcellID.framework; sourceTree = "<group>"; };
-		88CD33871C9FF6B9002B8ABD /* TurkcellIDBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TurkcellIDBundle.bundle; sourceTree = "<group>"; };
 		88D17F341C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Appstore-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TurkcellIDSampleApp-Appstore-Info.plist"; sourceTree = "<group>"; };
 		88D17F351C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Enterprise-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TurkcellIDSampleApp-Enterprise-Info.plist"; sourceTree = "<group>"; };
 		88F475F61B612E1500207F7F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		88F58B6E1B724595006FF31D /* test.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.entitlements; sourceTree = "<group>"; };
+		9CD8074B1CCE188C0048B1FA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9CD8074E1CCE1A0B0048B1FA /* TurkcellID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TurkcellID.framework; sourceTree = "<group>"; };
+		9CD807521CCE2A780048B1FA /* TurkcellIDBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TurkcellIDBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD8074D1CCE19000048B1FA /* UIKit.framework in Frameworks */,
+				9CD8074C1CCE188C0048B1FA /* CFNetwork.framework in Frameworks */,
 				886C01DC1B4144B900A9BF74 /* libc++.dylib in Frameworks */,
+				9CD8074F1CCE1A0B0048B1FA /* TurkcellID.framework in Frameworks */,
 				886C01DA1B41449F00A9BF74 /* libz.dylib in Frameworks */,
 				886C01D81B41446700A9BF74 /* CoreTelephony.framework in Frameworks */,
 				886C01D61B41445B00A9BF74 /* LocalAuthentication.framework in Frameworks */,
@@ -88,8 +93,6 @@
 				886C01CE1B41442F00A9BF74 /* Accelerate.framework in Frameworks */,
 				028B0EB6172FC1E900EE3450 /* SystemConfiguration.framework in Frameworks */,
 				028B0EB4172FC1E500EE3450 /* MessageUI.framework in Frameworks */,
-				88CD33861C9FF6AD002B8ABD /* TurkcellID.framework in Frameworks */,
-				02D7C6B0172FB621008F02A0 /* UIKit.framework in Frameworks */,
 				02D7C6B2172FB621008F02A0 /* Foundation.framework in Frameworks */,
 				02D7C6B4172FB621008F02A0 /* CoreGraphics.framework in Frameworks */,
 				88F475F71B612E1500207F7F /* CoreText.framework in Frameworks */,
@@ -120,7 +123,9 @@
 		02D7C6AE172FB621008F02A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				88CD33851C9FF6AD002B8ABD /* TurkcellID.framework */,
+				9CD807521CCE2A780048B1FA /* TurkcellIDBundle.bundle */,
+				9CD8074E1CCE1A0B0048B1FA /* TurkcellID.framework */,
+				9CD8074B1CCE188C0048B1FA /* CFNetwork.framework */,
 				88F475F61B612E1500207F7F /* CoreText.framework */,
 				886C01DB1B4144B900A9BF74 /* libc++.dylib */,
 				886C01D91B41449F00A9BF74 /* libz.dylib */,
@@ -155,7 +160,6 @@
 		02D7C6B6172FB621008F02A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				88CD33871C9FF6B9002B8ABD /* TurkcellIDBundle.bundle */,
 				88F58B6E1B724595006FF31D /* test.entitlements */,
 				88D17F341C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Appstore-Info.plist */,
 				88D17F351C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Enterprise-Info.plist */,
@@ -230,7 +234,7 @@
 				02D7C6BA172FB621008F02A0 /* InfoPlist.strings in Resources */,
 				886C01CC1B41424A00A9BF74 /* TestVC.xib in Resources */,
 				02D7C6C2172FB621008F02A0 /* Default.png in Resources */,
-				88CD33881C9FF6B9002B8ABD /* TurkcellIDBundle.bundle in Resources */,
+				9CD807531CCE2A780048B1FA /* TurkcellIDBundle.bundle in Resources */,
 				88F58B6F1B724595006FF31D /* test.entitlements in Resources */,
 				02D7C6C4172FB621008F02A0 /* Default@2x.png in Resources */,
 				88D17F361C1EFB0B00C1AA01 /* TurkcellIDSampleApp-Appstore-Info.plist in Resources */,
@@ -346,10 +350,11 @@
 				INFOPLIST_FILE = "TurkcellIDSampleApp/TurkcellIDSampleApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv7s arm64 x86_64 i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -370,10 +375,11 @@
 				INFOPLIST_FILE = "TurkcellIDSampleApp/TurkcellIDSampleApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv7s arm64 x86_64 i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -429,10 +435,11 @@
 				INFOPLIST_FILE = "TurkcellIDSampleApp/TurkcellIDSampleApp-Appstore-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv7s arm64 x86_64 i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Appstore;
@@ -488,10 +495,11 @@
 				INFOPLIST_FILE = "TurkcellIDSampleApp/TurkcellIDSampleApp-Enterprise-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 armv7s arm64 x86_64 i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Enterprise;

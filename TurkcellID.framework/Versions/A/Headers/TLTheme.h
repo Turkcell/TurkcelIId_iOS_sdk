@@ -33,6 +33,10 @@
 @property(nonatomic,strong) UIColor * colorTouchIDOfferDescription;
 
 @property(nonatomic,strong) UIColor * colorChangePasswordBackground;
+@property(nonatomic,strong) UIColor * colorRegisterBackground;
+@property(nonatomic,strong) UIColor * colorRequireRegisterBackground;
+@property(nonatomic,strong) UIColor * colorMaskedMailBackground;
+@property(nonatomic,strong) UIColor * colorForgotEmailBackground;
 @property(nonatomic,strong) UIColor * colorRemembermeOfferBackground;
 
 @property(nonatomic,strong) UIColor* colorPositiveButtonText;
@@ -57,8 +61,9 @@
 
 @property(nonatomic,strong) UIColor *colorBackgroundRememberMeOffer;
 
-@property(nonatomic,strong) UIFont * fontCommon;
-
 @property(nonatomic,strong) NSString * customButtonTitle;
+
+-(UIFont *)fontCommon;
+
 @end
 

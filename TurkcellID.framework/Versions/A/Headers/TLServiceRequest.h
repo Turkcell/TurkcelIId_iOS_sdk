@@ -42,7 +42,8 @@ extern NSString * const KeyChainID;
 extern NSString * const KeyMsisdn_;
 extern NSString * const KeyDeviceID;
 extern NSString * const KeyTouchIDRequest;
-
+extern NSString * const KeyEmail;
+extern NSString * const KeyOtp;
 
 
 extern NSString * const ResponseKeyEncryptedMsisdn;
@@ -59,6 +60,9 @@ extern NSString * const ResponseKeyNonTurkcellLogin;
 extern NSString * const ResponseKeyRememberMeCheckedByDefault;
 extern NSString * const ResponseKeyShowCellularRememberMeOffer;
 extern NSString * const ResponseKeyProperties;
+extern NSString * const ResponseKeyUxType;
+extern NSString * const ResponseKeyTimerSeconds;
+extern NSString * const KeyVersion;
 
 /**
  Key for NSError object in NSNotication's userInfo dictionary.
@@ -75,7 +79,19 @@ typedef NS_ENUM(NSUInteger, TLServiceType) {
     TLServiceTypeChangePassword,
     TLServiceTypeLLRememberMe,
     TLServiceTypeInvalidateToken,
-    TLServiceTypeForgotPassword
+    TLServiceTypeForgotPassword,
+    TLServiceTypeRequestPasswordEmail,
+    TLServiceTypeRequestPasswordGsm,
+    TLServiceTypeVerifyEmailRetrieve,
+    TLServiceTypeVerifyRegister,
+    TLServiceTypeVerifyGSMUpdate,
+    TLServiceTypeRegister,
+    TLServiceTypeRequireMailRegister,
+    TLServiceTypeRequireGsmRegister,
+    TLServiceTypeSendOtpRegister,
+    TLServiceTypeSendOtpEmailRetrieve,
+    TLServiceTypeSendOtpGsmUpdate
+    
 };
 
 typedef NS_ENUM(NSUInteger, TLHTTPRequestType) {

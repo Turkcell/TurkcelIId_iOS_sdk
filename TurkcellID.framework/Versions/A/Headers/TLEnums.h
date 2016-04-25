@@ -18,6 +18,20 @@ typedef NS_ENUM(NSUInteger, TLLoginType)
     TcellLoginTypeTouchID    
 };
 
+typedef NS_ENUM(NSUInteger, TLLoginScreenType)
+{
+    TcellLoginScreenTypeGsm,
+    TcellLoginScreenTypeEmail,
+    TcellLoginScreenTypeBoth
+};
+
+typedef NS_ENUM(NSUInteger, TLOtpVerifyType)
+{
+    TcellOtpVerifyTypeEmailRetrieve,
+    TcellOtpVerifyTypeRegister,
+    TcellOtpVerifyTypeGSMUpdate
+};
+
 #define kTLLoginTypeArray @"TcellLoginTypeNonLogin", @"TcellLoginTypeServiceLogin", @"TcellLoginTypeRememberMe", @"TcellLoginTypeLightLoginRememberMe", @"TcellLoginTypeLightLogin", @"TcellLoginTypeTouchID", nil
 
 

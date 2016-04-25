@@ -9,6 +9,7 @@
 #import "TLBaseScrollVC.h"
 #import "TLEnums.h"
 #import "TLAccountModel.h"
+#import "BEMCheckBox.h"
 #import <MessageUI/MessageUI.h>
 
 @protocol TLLoginVCDelegate <NSObject>
@@ -32,6 +33,7 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *heightConstraint;
 @property (weak, nonatomic) IBOutlet UIView *headerView;
 @property (weak, nonatomic) IBOutlet UIButton *rememberButton;
+
 @property(nonatomic,assign) BOOL rememberMeCheckedByDefault;
 
 @property (nonatomic, strong) TLAccountModel * account;
@@ -41,10 +43,18 @@
 @property(nonatomic,assign) BOOL loginWithTouchID;
 @property(nonatomic,weak) id<TLLoginVCDelegate> delegate;
 @property (weak, nonatomic) IBOutlet UIButton *forgotPassButton;
-@property (weak, nonatomic) IBOutlet UIButton *loginWithAnotherGSMButton;
 
 @property (weak, nonatomic) IBOutlet UIButton *requestPassButton;
 @property (weak, nonatomic) IBOutlet UILabel *rememberMeText;
 @property (weak, nonatomic) IBOutlet UIButton *changePassButton;
+@property (weak, nonatomic) IBOutlet UIButton *gsmButton;
+@property (weak, nonatomic) IBOutlet UIButton *emailButton;
+
+@property (weak, nonatomic) IBOutlet UIButton *registerButton;
+@property (weak, nonatomic) IBOutlet UILabel *registerDescriptionText;
+@property (nonatomic, assign) TLLoginScreenType screenType;
+@property (weak, nonatomic) IBOutlet UIButton *registerGsmButton;
+
+@property (weak, nonatomic) IBOutlet UIImageView *removeGsmImageView;
 
 @end
