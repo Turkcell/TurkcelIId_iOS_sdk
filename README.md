@@ -1,9 +1,9 @@
 # Turkcell Login iOS SDK 
 ### Version History
 
-#### 4.0
+#### 4.0.1
 ---
-UX Type 1 olan uygulamalar için kayıt ol butonunun gözükme problemi giderildi.
+Kayıt ol butonunun bazı durumlarda gözükme problemi giderildi.
 ---
 #### 4.0
 ---
