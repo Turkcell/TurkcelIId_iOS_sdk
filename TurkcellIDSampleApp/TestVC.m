@@ -13,7 +13,6 @@
 #define RGB(red, green, blue)				RGBA(red, green, blue, 1.0)
 
 #import "TestVC.h"
-#import <TurkcellID/TurkcellID.h>
 
 @interface TestVC ()<TLLoginDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *descLabel;
