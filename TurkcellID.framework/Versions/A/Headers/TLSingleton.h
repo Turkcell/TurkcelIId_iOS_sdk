@@ -14,5 +14,6 @@
 +(instancetype) sharedObject;
 
 @property(nonatomic,strong) TLTheme * theme;
+@property(nonatomic,strong) NSString * appId;
 
 @end
