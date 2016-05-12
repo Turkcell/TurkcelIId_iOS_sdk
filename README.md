@@ -4,7 +4,7 @@
 #### 4.0.1
 ---
 Kayıt ol butonunun bazı durumlarda gözükme problemi giderildi.
----
+
 #### 4.0
 ---
 Diğer operatör kullanıcıları için email ile kayıt ve giriş akışları eklendi.
