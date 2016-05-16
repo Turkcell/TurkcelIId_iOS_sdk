@@ -28,7 +28,7 @@
     TLTheme * theme = [[TLTheme alloc] init];
     theme.customButtonTitle = @"Test Button";
     
-    _login = [[TLManager alloc] initWithAppID:@"201" useTestServer:YES theme:theme customAccessGroup:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"customaccessgroup"]];
+    _login = [[TLManager alloc] initWithAppID:@"151" useTestServer:YES theme:theme customAccessGroup:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"customaccessgroup"]];
 
     _login.delegate = self;
     
