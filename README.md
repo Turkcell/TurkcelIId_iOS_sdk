@@ -1,6 +1,10 @@
 # Turkcell Login iOS SDK 
 ### Version History
 
+#### 4.0.3
+---
+Bundle executable problemi çözüldü.
+
 #### 4.0.2
 ---
 Kayıt ol metni ile ilgili problem düzeltildi.
