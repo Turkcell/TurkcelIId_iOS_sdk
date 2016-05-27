@@ -1,6 +1,11 @@
 # Turkcell Login iOS SDK 
 ### Version History
 
+#### 4.0.3.1
+---
+Email ve GSM tablarının indicator color değiştirebilme özelliği eklendi.
+
+
 #### 4.0.3
 ---
 Bundle executable problemi çözüldü.

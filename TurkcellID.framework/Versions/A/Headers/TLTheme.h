@@ -63,6 +63,8 @@
 
 @property(nonatomic,strong) NSString * customButtonTitle;
 
+@property(nonatomic,strong) UIColor* colorTabIndicator;
+
 -(UIFont *)fontCommon;
 
 @end
