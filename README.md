@@ -1,6 +1,12 @@
 # Turkcell Login iOS SDK 
 ### Version History
 
+
+#### 4.0.4
+---
+Logoutta hud gözükmesi showLoader parametresine göre çalışır hale getirildi.
+
+
 #### 4.0.3.1
 ---
 Email ve GSM tablarının indicator color değiştirebilme özelliği eklendi.
