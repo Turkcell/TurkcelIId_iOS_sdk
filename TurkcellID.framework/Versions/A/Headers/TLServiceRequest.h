@@ -45,6 +45,7 @@ extern NSString * const KeyTouchIDRequest;
 extern NSString * const KeyEmail;
 extern NSString * const KeyOtp;
 
+extern NSString * const KeyBundleID;
 
 extern NSString * const ResponseKeyEncryptedMsisdn;
 extern NSString * const ResponseKeyCode;

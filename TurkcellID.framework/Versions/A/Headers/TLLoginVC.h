@@ -43,18 +43,13 @@
 @property(nonatomic,assign) BOOL loginWithTouchID;
 @property(nonatomic,weak) id<TLLoginVCDelegate> delegate;
 @property (weak, nonatomic) IBOutlet UIButton *forgotPassButton;
-
+@property (weak, nonatomic) IBOutlet UIButton *forgotMailButton;
 @property (weak, nonatomic) IBOutlet UIButton *requestPassButton;
 @property (weak, nonatomic) IBOutlet UILabel *rememberMeText;
 @property (weak, nonatomic) IBOutlet UIButton *changePassButton;
-@property (weak, nonatomic) IBOutlet UIButton *gsmButton;
-@property (weak, nonatomic) IBOutlet UIButton *emailButton;
-
-@property (weak, nonatomic) IBOutlet UIButton *registerButton;
 @property (weak, nonatomic) IBOutlet UILabel *registerDescriptionText;
 @property (nonatomic, assign) TLLoginScreenType screenType;
 @property (weak, nonatomic) IBOutlet UIButton *registerGsmButton;
-
 @property (weak, nonatomic) IBOutlet UIImageView *removeGsmImageView;
 
 @end
