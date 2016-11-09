@@ -7,7 +7,6 @@
     "showNonTurkcellInfo": true,
     "properties": {
         "tr.common.ok": "Tamam",
-        "otp.period" : "2000",
         "tr.verifyotp.email.retrieve.title" : "Eposta Adresimi Unuttum",
         "tr.verifyotp.gsm.update.title" : "Numara Guncelleme",
         "tr.verifyotp.register.title" : "Kayit Ol",
