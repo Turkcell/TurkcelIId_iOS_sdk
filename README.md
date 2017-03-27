@@ -1,6 +1,10 @@
 # Turkcell Login iOS SDK 
 ### Version History
 
+#### 4.0.6
+---
+Tasarım değiştirildi.
+
 #### 4.0.5
 ---
 Bitcode desteği sağlandı.
