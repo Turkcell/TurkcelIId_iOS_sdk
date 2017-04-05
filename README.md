@@ -1,5 +1,8 @@
 # Turkcell Login iOS SDK 
 ### Version History
+#### 4.0.7
+---
+Tasarım değiştirildi, yurtdışı numara ile login desteği getirildi.
 
 #### 4.0.6
 ---
