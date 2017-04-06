@@ -17,4 +17,6 @@
 @property(nonatomic,strong) NSString * appId;
 @property(nonatomic,strong) NSString * language;
 @property(nonatomic, assign) BOOL showLoginPage;
+@property(assign, nonatomic) BOOL hideDismissButton;
+
 @end

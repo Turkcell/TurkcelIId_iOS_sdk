@@ -37,7 +37,7 @@
 
 @property(nonatomic,strong) NSString * language;
 @property(nonatomic,strong) NSString * defaultRegion;
-
+-(void)setHideDismissButton:(BOOL)hideDismissButton;
 
 -(instancetype)initWithAppID:(NSString *)appID  useTestServer:(BOOL)useTestServer theme:(TLTheme *)theme customAccessGroup:(NSString *) accessGroup;
 -(void)startLoginProcess:(UIViewController *) mainVC skipLightLogin:(BOOL)skipLightLogin showLoginPage:(BOOL)showLoginPage showLoader:(BOOL)pShowLoader dismissSession:(BOOL) dismissSession;

@@ -1,0 +1,26 @@
+-x
+objective-c
+-arch
+armv7
+-std=gnu99
+-fobjc-arc
+-gmodules
+-fpascal-strings
+-Os
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk
+-miphoneos-version-min=6.0
+-g
+-fvisibility=hidden
+-fembed-bitcode-marker
+-iquote
+-iquote
+-I/Users/keremgunduz/github/TurkcelIId_iOS_sdk/build/Release-iphoneos/include
+-F/Users/keremgunduz/github/TurkcelIId_iOS_sdk/build/Release-iphoneos
+-F/Users/keremgunduz/github/TurkcelIId_iOS_sdk
+-F/Users/keremgunduz/github/TurkcelIId_iOS_sdk/TurkcellIDSampleApp
+-DNS_BLOCK_ASSERTIONS=1
+arm-apple-darwin16.4.0
+"4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.38)"
+SDK_PRODUCT_BUILD_VERSION=14E269
+14E269

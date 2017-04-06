@@ -3,7 +3,7 @@
 //  TurkcellID
 //
 //  Created by Kerem Gunduz on 25/02/15.
-//  Copyright (c) 2015 Sonat Karakas. All rights reserved.
+//  Copyright (c) 2015 Turkcell. All rights reserved.
 //
 
 #import "TLBaseScrollVC.h"

@@ -31,6 +31,7 @@
     _login = [[TLManager alloc] initWithAppID:@"151" useTestServer:YES theme:theme customAccessGroup:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"customaccessgroup"]];
 
     _login.delegate = self;
+//    [_login setHideDismissButton:YES];
     
 }
 - (void)didReceiveMemoryWarning {

@@ -1,5 +1,9 @@
 # Turkcell Login iOS SDK 
 ### Version History
+#### 4.0.8
+---
+Çarpı butonunu gizlemek için TLManager'a setHideDismissButton metodu eklendi.
+
 #### 4.0.7
 ---
 Tasarım değiştirildi, yurtdışı numara ile login desteği getirildi.
