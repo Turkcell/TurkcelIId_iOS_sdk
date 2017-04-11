@@ -12,6 +12,6 @@
 @property (strong ,nonatomic) NSString *placeholderText;
 @property (strong ,nonatomic) UILabel *placeholderLabel;
 
--(void)reloadUI;
+-(void)reloadUI:(BOOL)isUp;
 -(void) initialize;
 @end

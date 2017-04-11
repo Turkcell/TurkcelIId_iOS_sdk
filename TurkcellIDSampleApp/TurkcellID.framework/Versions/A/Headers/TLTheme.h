@@ -44,6 +44,7 @@
 @property(nonatomic,strong) UIColor * colorMaskedMailBackground;
 @property(nonatomic,strong) UIColor * colorForgotEmailBackground;
 @property(nonatomic,strong) UIColor * colorRemembermeOfferBackground;
+@property(nonatomic,strong) UIColor * colorCountrySelectBackground;
 
 @property(nonatomic,strong) UIColor* colorPositiveButtonText;
 @property(nonatomic,strong) UIColor* colorPositiveButtonHighlightedText;

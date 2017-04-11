@@ -2,6 +2,10 @@
 ### Version History
 #### 4.0.8
 ---
+Küçük iyileştirmeler yapıldı.
+
+#### 4.0.8
+---
 Çarpı butonunu gizlemek için TLManager'a setHideDismissButton metodu eklendi.
 
 #### 4.0.7
