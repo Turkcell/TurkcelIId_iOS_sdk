@@ -47,6 +47,7 @@
 @property(nonatomic,strong) UIColor * colorCountrySelectBackground;
 @property(nonatomic,strong) UIColor * colorCountrySelectSeperator;
 @property(nonatomic,strong) UIImage * colorCountrySelectCheckImage;
+@property(nonatomic,strong) UIColor * colorCountrySelectText;
 
 @property(nonatomic,strong) UIColor* colorPositiveButtonText;
 @property(nonatomic,strong) UIColor* colorPositiveButtonHighlightedText;
