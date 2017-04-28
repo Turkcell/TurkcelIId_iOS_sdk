@@ -53,7 +53,6 @@
 @property (nonatomic, assign) TLLoginScreenType screenType;
 @property (weak, nonatomic) IBOutlet UIButton *registerGsmButton;
 @property (weak, nonatomic) IBOutlet UIImageView *removeGsmImageView;
-@property (weak, nonatomic) IBOutlet UIButton * countryCodeButton;
 @property (nonatomic, strong) NSMutableArray * countryCodeList;
 @property (nonatomic, strong) NSString* defaultRegionCode;
 @property(nonatomic,assign) BOOL showRegion;

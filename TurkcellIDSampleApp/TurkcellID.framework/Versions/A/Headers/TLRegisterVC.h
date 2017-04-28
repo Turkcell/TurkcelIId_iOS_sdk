@@ -12,7 +12,7 @@
 @property (weak, nonatomic) IBOutlet BetaNaoTextField *passwordLabel;
 @property (weak, nonatomic) IBOutlet BetaNaoTextField *confirmPasswordLabel;
 @property (weak, nonatomic) IBOutlet UIButton *changeButton;
-@property (weak, nonatomic) IBOutlet UIButton *countryCodeButton;
+
 
 @property(nonatomic,assign) BOOL backToRootVC;
 
