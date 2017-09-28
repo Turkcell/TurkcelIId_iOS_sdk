@@ -1,5 +1,9 @@
 # Turkcell Login iOS SDK 
-### Version History
+### Version History 
+#### 4.2.5
+---
+iPad crash problemi çözüldü.
+
 #### 4.2.4
 ---
 Küçük iyileştirmeler yapıldı.
