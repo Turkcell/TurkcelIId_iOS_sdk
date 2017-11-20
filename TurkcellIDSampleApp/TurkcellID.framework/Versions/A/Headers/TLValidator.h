@@ -12,6 +12,6 @@
 
 +(NSString *) validateEmail:(NSString *) email;
 
-+(NSString *) validateMsisdn:(NSString *) msisdn;
++(NSString *) validateMsisdn:(NSString *) msisdn withCountryCode: (NSString *) countryCode;
 
 @end
