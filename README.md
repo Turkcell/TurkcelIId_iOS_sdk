@@ -1,5 +1,9 @@
 # Turkcell Login iOS SDK 
 ### Version History 
+#### 4.4
+---
+iOS desteği 9'a gçekildi. iPhoneX bulguları çözüldü.
+
 #### 4.3
 ---
 Ülke seçim problemi çözüldü.
