@@ -47,5 +47,4 @@
 +(NSString *) BaseSDKURL;
 +(NSString *) BaseSDKURLHTTP;
 +(NSString *) SDKAccessGroup;
-+(void) hideLoginPage;
 @end

@@ -17,10 +17,6 @@
 #define SYSTEM_VERSION_LESS_THAN(v)                 (_SYSTEM_VERSION_COMPARE_TO_(v) == NSOrderedAscending)
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     (_SYSTEM_VERSION_COMPARE_TO_(v) != NSOrderedDescending)
 #define IS_MIN_IOS_8                                SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0")
-#define IS_MIN_IOS_7                                SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")
-#define IS_MIN_IOS_6                                SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"6.0")
-#define IS_IOS_5                                    [[[UIDevice currentDevice] systemVersion] hasPrefix:@"5"]
-#define IS_IOS_6                                    [[[UIDevice currentDevice] systemVersion] hasPrefix:@"6"]
 #define IPHONE4                                     [[UIScreen mainScreen] bounds].size.height <= 480.0
 
 #define DEFAULT_CORNER_RADIUS         5.0f

@@ -14,4 +14,6 @@
 
 -(instancetype)initWithScreenType:(TLLoginScreenType) screenType countryList:(NSMutableArray*)countryList defaultCode:(NSString*)defaultCode isShowRegion:(BOOL)showRegion;
 
+-(void)buttonTouched;
+
 @end
