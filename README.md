@@ -1,5 +1,9 @@
 # Turkcell Login iOS SDK 
 ### Version History 
+#### 4.7
+---
+Küçük iyileştirmeler yapıldı.
+
 #### 4.6
 ---
 Küçük iyileştirmeler yapıldı.
